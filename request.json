@@ -1,0 +1,8 @@
+curl --location 'https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:embedContent' \
+--header 'x-goog-api-key: x' \
+--header 'Content-Type: application/json' \
+--data '{"model": "models/gemini-embedding-001",
+"content":
+{"parts": [{"text": "What is the meaning of life?"}]}
+
+}'
